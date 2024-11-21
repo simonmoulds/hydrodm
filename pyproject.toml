@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "hydrodm"
+version = "0.1.0"
+description = "A Python package for differentiable hydrological modelling."
+authors = [{name = "Simon Moulds", email = "simon.moulds@ed.ac.uk"}]
+
+[project.scripts]
+hydrodm = "hydrodm.cli:cli"   
